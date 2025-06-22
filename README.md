@@ -44,3 +44,5 @@ Material UI (MUI) components have been implemented on the Login and My Patients 
 ```bash
 git clone https://github.com/Katt-Lac/doctor-app.git
 cd doctor-app
+npm install
+npm start
