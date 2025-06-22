@@ -1,0 +1,77 @@
+.patient-card {
+    width: 320px;               /* fixná šírka */
+    background-color: white;
+    border-radius: 12px;        /* oblé rohy */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.patient-info {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.patient-photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;         /* kruhová fotka */
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.patient-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.patient-details h3 {
+    margin: 0 0 6px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.patient-details p {
+    margin: 2px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.action-btns {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+}
+
+.chat-btn, .call-btn {
+    flex: 1;
+    padding: 10px 0;
+    border: none;
+    background-color: white;
+    color: #1abc9c;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s ease, color 0.25s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.chat-btn:hover, .call-btn:hover {
+    background-color: #e0f2f1;
+    color: #159d8b;
+}
+
+.chat-btn svg, .call-btn svg {
+    font-size: 18px;
+}
