@@ -4,6 +4,25 @@ Doctor App is a React-based web application designed for doctors to manage their
 
 ---
 
+##  Application Structure
+
+The Doctor App is organized into several key parts:
+
+- **Pages**: Individual views corresponding to different routes:
+  - `Login` — user authentication page.
+  - `Appointments` — doctors can view and manage appointments.
+  - `My Patients` — list and details of patients fetched from the API.
+  - `Chats` — real-time messaging interface.
+  - `Calls` — video or audio call functionality.
+  - `Settings` — user and app preferences.
+
+- **Components**:
+  - `Navbar` — the navigation bar shown to authenticated users.
+  - `PrivateRoute` — wrapper component protecting private pages from unauthorized access.
+
+
+---
+
 ## Tech Stack
 
 - **Frontend:** React, React Router v6
