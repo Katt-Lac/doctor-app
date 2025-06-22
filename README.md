@@ -23,6 +23,15 @@ The Doctor App is organized into several key parts:
 
 ---
 
+## Login Credentials
+
+To log in and explore the application, you can use the following test credentials:
+
+- **Username:** `test`
+- **Password:** `test`
+
+---
+
 ## Tech Stack
 
 - **Frontend:** React, React Router v6
