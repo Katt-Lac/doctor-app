@@ -10,11 +10,11 @@ The Doctor App is organized into several key parts:
 
 - **Pages**: Individual views corresponding to different routes:
   - `Login` — user authentication page.
-  - `Appointments` — doctors can view and manage appointments.
+  - `Appointments` — doctors can view appointments and patient's infos.
   - `My Patients` — list and details of patients fetched from the API.
-  - `Chats` — real-time messaging interface.
-  - `Calls` — video or audio call functionality.
-  - `Settings` — user and app preferences.
+  - `Chats` — real-time messaging interface (in progress).
+  - `Calls` — video or audio call functionality (in progress).
+  - `Settings` — user and app preferences (in progress).
 
 - **Components**:
   - `Navbar` — the navigation bar shown to authenticated users.
